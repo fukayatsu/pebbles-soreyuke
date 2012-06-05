@@ -3,10 +3,10 @@ require File.expand_path('../lib/pebbles-soreyuke/version', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.authors       = ["fukayatsu"]
-  gem.email         = ["fukayatsu@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.email         = ["at.fukaya@gmail.com"]
+  gem.description   = %q{print some charactors and messages}
+  gem.summary       = %q{a joke gem. let's SOREYUKE XXX-man!}
+  gem.homepage      = "https://github.com/fukayatsu/pebbles-soreyuke"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }

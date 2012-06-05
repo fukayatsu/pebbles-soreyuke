@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+# -*- encoding: utf-8 -*-
+msg = ARGV[0] || "I am APM!"
+print <<"EOS"
+         ＿＿＿
+      ／       ＼        ＿＿＿＿＿＿＿＿
+     /   ∧   ∧   ＼     ／
+    |    ・  ・   |  ＜   #{msg}
+    |     ）●（   |    ＼＿＿＿＿＿＿＿＿
+    ＼    ー     ﾉ
+      ＼＿＿＿_／
+EOS
