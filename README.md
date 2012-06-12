@@ -1,6 +1,7 @@
 # Pebbles::Soreyuke
 
-TODO: Write a gem description
+![screen shot](http://cdn-ak.f.st-hatena.com/images/fotolife/f/fukayatsu/20120606/20120606020456.png)
+http://fukayatsu.hateblo.jp/entry/2012/06/06/020616
 
 ## Installation
 
