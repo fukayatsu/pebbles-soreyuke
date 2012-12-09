@@ -19,7 +19,7 @@ module Pebbles
 
     def apm(text = nil)
       text ||= "I am APM!"
-      <<"EOS"
+      <<-"EOS"
          ＿＿＿
       ／       ＼         ＿＿＿＿＿＿＿＿
      /   ∧   ∧   ＼     ／
@@ -27,24 +27,24 @@ module Pebbles
     |     ）●（   |    ＼＿＿＿＿＿＿＿＿
     ＼    ー     ﾉ
       ＼＿＿＿_／
-EOS
+      EOS
     end
 
     def cpm(text = nil)
       text || "I am CPM!"
-      <<"EOS"
+      <<-"EOS"
         ＿＿ヘ＿ヘ＿          ＿＿＿＿＿＿＿＿
       ／∴∵(・) (・)∴＼      ／
      /∴∵∴∵    ○   ∴∵ ヽ   ＜   #{text}
     (∵∴∵  ●～～～●  ∴ )     ＼＿＿＿＿＿＿＿＿
      ＼∵∴∵∴∵∴∵     ／
        ＼∵∴∵∴    ／
-EOS
+      EOS
     end
 
     def spm(text = nil)
       text || "I am SPM!"
-      <<"EOS"
+      <<-"EOS"
       ＿＿＿＿
     ／          ＼
   (               ）    ＿＿＿＿＿＿＿＿
@@ -54,7 +54,7 @@ EOS
     |     凵     |
     |     ー     |
     |＿＿＿＿＿＿|
-EOS
+      EOS
     end
   end
 end
