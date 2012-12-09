@@ -1,12 +1,27 @@
 #!/usr/bin/env ruby
 # -*- encoding: utf-8 -*-
-msg = ARGV[0] || "I am APM!"
-print <<"EOS"
-         ＿＿＿
-      ／       ＼        ＿＿＿＿＿＿＿＿
-     /   ∧   ∧   ＼     ／
-    |    ・  ・   |  ＜   #{msg}
-    |     ）●（   |    ＼＿＿＿＿＿＿＿＿
-    ＼    ー     ﾉ
-      ＼＿＿＿_／
-EOS
+
+require "pebbles-soreyuke"
+require 'optparse'
+
+Soreyuke = Pebbles::Soreyuke
+Version = Soreyuke::VERSION
+
+OPTS = {}
+opt = OptionParser.new
+
+opt.on('-c NAME', '--character=NAME', '(apm|cpm|spm)') { |name|
+  OPTS[:character] = name
+}
+opt.on('-m MESSAGE', '--message=MESSAGE', 'option') { |message|
+  OPTS[:message] = message
+}
+
+opt.parse!(ARGV)
+
+if OPTS.size == 0
+  print opt.help
+  exit
+end
+
+print Soreyuke::AA(OPTS[:character], OPTS[:message])
