@@ -9,11 +9,11 @@ http://fukayatsu.hateblo.jp/entry/2012/06/06/020616
 
 ## Usage
 
-    $ soreyuke
-
-or
-
-    $ soreyuke "foooooo!"
+```
+Usage: soreyuke [options]
+    -c, --character=NAME             (apm|cpm|spm)
+    -m, --message=MESSAGE            option
+```
 
 ## Contributing
 
