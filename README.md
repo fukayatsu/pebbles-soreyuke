@@ -1,5 +1,8 @@
 # Pebbles::Soreyuke
 
+[![Gem Version](https://badge.fury.io/rb/pebbles-soreyuke.png)](http://badge.fury.io/rb/pebbles-soreyuke)
+
+
 ![screen shot](http://cdn-ak.f.st-hatena.com/images/fotolife/f/fukayatsu/20120606/20120606020456.png)
 http://fukayatsu.hateblo.jp/entry/2012/06/06/020616
 
