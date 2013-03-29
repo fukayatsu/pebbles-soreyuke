@@ -31,7 +31,7 @@ module Pebbles
     end
 
     def cpm(text = nil)
-      text || "I am CPM!"
+      text ||= "I am CPM!"
       <<-"EOS"
         ＿＿ヘ＿ヘ＿          ＿＿＿＿＿＿＿＿
       ／∴∵(・) (・)∴＼      ／
@@ -43,7 +43,7 @@ module Pebbles
     end
 
     def spm(text = nil)
-      text || "I am SPM!"
+      text ||= "I am SPM!"
       <<-"EOS"
       ＿＿＿＿
     ／          ＼
